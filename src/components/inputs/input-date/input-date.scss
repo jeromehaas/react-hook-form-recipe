@@ -1,0 +1,13 @@
+.input-date {
+
+    &__input {
+
+        &::-webkit-inner-spin-button,
+        &::-webkit-calendar-picker-indicator {
+            background: url('http://localhost:3000/media/icons/calendar.svg') no-repeat;
+            background-size: 100%;
+        }
+        
+    }
+
+}

@@ -1,0 +1,35 @@
+.input-radio {
+
+    &__options, .options {
+
+    &__item, .item {
+
+        &__input {
+            margin-right: 8px;
+            display: inline-block;
+            border: 1px solid black;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            position: relative;
+
+            &:checked::after {
+                content: " ";
+                position: absolute;
+                background-color: blue;
+                width: 8px;
+                height: 8px;
+                display: block;
+                border-radius: 50%;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+        }
+
+    }
+
+}
+
+};

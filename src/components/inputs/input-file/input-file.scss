@@ -1,0 +1,32 @@
+.input-file {
+
+
+    &__input-container, .input-container {
+        display: flex;
+        flex-direction: row;
+        
+        &__input {
+
+            &::placeholder {
+                color: black !important;
+            }
+
+        }
+
+        &__button {
+            background-color: lightgrey;
+            background-image: url('http://localhost:3000/media/icons/resume.svg');
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 40px;
+            height: 34px;
+            display: block;
+        }
+
+    }
+
+    &__fake-input {
+        display: none;
+    }
+
+}

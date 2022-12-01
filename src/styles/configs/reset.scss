@@ -1,0 +1,34 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+
+
+// HIDE LASTPASS ICON
+input[type="text"],
+input[type="password"] {
+  background-image:none !important;
+  background-attachment:none !important;
+}
+
+// HIDE LASTPASS ICON
+div[id^=__lpform_] {
+    display: none;
+}
+
+input::placeholder {
+  color: black;
+}
